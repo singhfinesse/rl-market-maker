@@ -4,3 +4,4 @@ __pycache__/
 models/monitor_*.csv
 models/*.log
 .pytest_cache/
+.DS_Store
