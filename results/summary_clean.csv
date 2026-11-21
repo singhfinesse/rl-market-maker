@@ -1,0 +1,5 @@
+Strategy,Mean PnL,PnL std,Sharpe (per session),Mean |final inventory|,Objective (risk-adj. score),Objective vs Avellaneda-Stoikov,95% CI low,95% CI high
+Symmetric (fixed spread),61.098,13.17,4.639,6.366,54.622,-2.168,-2.57,-1.793
+Avellaneda-Stoikov,57.236,6.409,8.931,2.389,56.79,0.0,0.0,0.0
+Avellaneda-Stoikov (adaptive vol),57.21,6.441,8.883,2.404,56.751,-0.039,-0.09,0.013
+PPO (RL agent),58.332,7.643,7.632,2.061,57.401,0.612,0.478,0.746

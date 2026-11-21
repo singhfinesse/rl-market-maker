@@ -1,0 +1,17 @@
+
+=== CLEAN market  (overall volatility 2.00) ===
+                         Strategy  Mean PnL  PnL std  Sharpe (per session)  Mean |final inventory|  Objective (risk-adj. score)  Objective vs Avellaneda-Stoikov  95% CI low  95% CI high
+         Symmetric (fixed spread)     61.10    13.17                  4.64                    6.37                        54.62                            -2.17       -2.57        -1.79
+               Avellaneda-Stoikov     57.24     6.41                  8.93                    2.39                        56.79                             0.00        0.00         0.00
+Avellaneda-Stoikov (adaptive vol)     57.21     6.44                  8.88                    2.40                        56.75                            -0.04       -0.09         0.01
+                   PPO (RL agent)     58.60     7.34                  7.98                    2.13                        57.57                             0.78        0.65         0.91
+
+=== MESSY market  (overall volatility 3.71) ===
+                         Strategy  Mean PnL  PnL std  Sharpe (per session)  Mean |final inventory|  Objective (risk-adj. score)  Objective vs Avellaneda-Stoikov  95% CI low  95% CI high
+         Symmetric (fixed spread)     42.69    46.87                  0.91                   11.20                       -20.37                           -65.11      -68.04       -62.14
+               Avellaneda-Stoikov     45.96     8.16                  5.63                    3.04                        44.74                             0.00        0.00         0.00
+Avellaneda-Stoikov (adaptive vol)     45.78    10.17                  4.50                    3.42                        43.43                            -1.32       -1.51        -1.12
+                   PPO (RL agent)     45.65     8.36                  5.46                    0.80                        44.82                             0.08       -0.11         0.26
+    PPO (trained on clean market)     41.73    27.25                  1.53                    4.85                        22.38                           -22.36      -23.57       -21.19
+
+Saved tables and figures to ./results

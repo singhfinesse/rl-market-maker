@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+models/monitor_*.csv
+models/*.log
+.pytest_cache/
